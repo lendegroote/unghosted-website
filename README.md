@@ -14,3 +14,10 @@ Open http://localhost:8765 and click once to wake the sound.
 - Flashlight veil: 10% black overlay (`--veil` in styles.css) with a soft circle around the cursor (`--torch`) that masks it out.
 - Subtle motion: scroll reveals, flickering headlines, floating and parallax ghost prints, tilt on feature phones, film grain.
 - Sound, synthesized with the Web Audio API: "boooo" on buttons, door creaks on links and FAQ, whispers on photo hover, soft wind, an occasional answer when idle. Toggle in the nav.
+
+## Blog
+Posts live in `tools/build_blog.py` (one dict per post). After editing, run:
+```
+python3 tools/build_blog.py
+```
+It rebuilds `blog/index.html`, every post page, and the "From the journal" strip on the homepage.

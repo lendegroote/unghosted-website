@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog · unghosted</title>
+  <meta name="description" content="Care tips, research and rituals for people who live with a ghost.">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body class="is-blog">
+  <div class="progress" aria-hidden="true"></div>
+  <div class="veil" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="nav">
+    <div class="wrap nav__inner">
+      <a href="../index.html" class="logo" data-sound="boo-short"><svg class="logo__mark" viewBox="0 0 24 30" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 11.5385C0 8.47827 1.21566 5.54342 3.37954 3.37954C5.54342 1.21566 8.47827 0 11.5385 0C14.5987 0 17.5335 1.21566 19.6974 3.37954C21.8613 5.54342 23.0769 8.47827 23.0769 11.5385V25.2404C23.0769 25.8142 22.849 26.3645 22.4433 26.7702C22.0375 27.1759 21.4872 27.4038 20.9135 27.4038C20.3397 27.4038 19.7894 27.1759 19.3837 26.7702C18.9779 26.3645 18.75 25.8142 18.75 25.2404C18.75 25.8142 18.5221 26.3645 18.1163 26.7702C17.7106 27.1759 17.1603 27.4038 16.5865 27.4038C16.0128 27.4038 15.4625 27.1759 15.0567 26.7702C14.651 26.3645 14.4231 25.8142 14.4231 25.2404C14.4231 25.8142 14.1951 26.3645 13.7894 26.7702C13.3837 27.1759 12.8334 27.4038 12.2596 27.4038C11.6858 27.4038 11.1355 27.1759 10.7298 26.7702C10.3241 26.3645 10.0962 25.8142 10.0962 25.2404C10.0962 25.8142 9.86822 26.3645 9.46249 26.7702C9.05676 27.1759 8.50648 27.4038 7.93269 27.4038C7.35891 27.4038 6.80862 27.1759 6.40289 26.7702C5.99717 26.3645 5.76923 25.8142 5.76923 25.2404L2.01923 30L0 25.2404V11.5385ZM7.06731 10.8173C7.06731 11.3146 7.20407 11.7915 7.44751 12.1431C7.69094 12.4948 8.02111 12.6923 8.36538 12.6923C8.70966 12.6923 9.03983 12.4948 9.28326 12.1431C9.5267 11.7915 9.66346 11.3146 9.66346 10.8173C9.66346 10.32 9.5267 9.84311 9.28326 9.49148C9.03983 9.13985 8.70966 8.94231 8.36538 8.94231C8.02111 8.94231 7.69094 9.13985 7.44751 9.49148C7.20407 9.84311 7.06731 10.32 7.06731 10.8173ZM13.4135 10.8173C13.4135 11.3146 13.5502 11.7915 13.7937 12.1431C14.0371 12.4948 14.3673 12.6923 14.7115 12.6923C15.0558 12.6923 15.386 12.4948 15.6294 12.1431C15.8729 11.7915 16.0096 11.3146 16.0096 10.8173C16.0096 10.32 15.8729 9.84311 15.6294 9.49148C15.386 9.13985 15.0558 8.94231 14.7115 8.94231C14.3673 8.94231 14.0371 9.13985 13.7937 9.49148C13.5502 9.84311 13.4135 10.32 13.4135 10.8173Z"/></svg><span class="logo__word"><span class="logo__un">un</span>ghosted</span></a>
+      <nav class="nav__links" aria-label="Main">
+        <a href="../index.html#features">Features</a>
+        <a href="../index.html#shop">Spirit shop</a>
+        <a href="../blog/index.html" aria-current="page">Blog</a>
+        <a href="../index.html#faq">FAQ</a>
+      </nav>
+      <div class="nav__actions">
+        <button class="sound-toggle" type="button" aria-pressed="true" aria-label="Sound on">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5Z"/><path class="wave" d="M15.5 8.5a5 5 0 0 1 0 7"/><path class="wave" d="M18.5 5.5a9 9 0 0 1 0 13"/><path class="mute" d="m16 9 6 6m0-6-6 6"/></svg>
+          <span class="sound-toggle__label">Sound on</span>
+        </button>
+        <a href="../index.html#download" class="btn btn--rust" data-sound="boo">Download</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="blog-hero">
+      <div class="wrap">
+        <p class="eyebrow reveal">The journal</p>
+        <h1 class="display flicker reveal">Notes from<br>the haunted.</h1>
+        <p class="lead reveal" style="--d:.1s">Care tips, research and rituals for people who live with a ghost. We believe you.</p>
+        <div class="chips reveal" style="--d:.2s" role="group" aria-label="Filter posts"><button class="chip is-on" type="button" data-filter="All">All</button><button class="chip" type="button" data-filter="Living with a ghost">Living with a ghost</button><button class="chip" type="button" data-filter="Sleep">Sleep</button><button class="chip" type="button" data-filter="Safety">Safety</button><button class="chip" type="button" data-filter="Grief">Grief</button><button class="chip" type="button" data-filter="Rituals">Rituals</button><button class="chip" type="button" data-filter="Talk">Talk</button></div>
+      </div>
+    </section>
+    <section class="section section--tight">
+      <div class="wrap">
+        <a class="post-card post-card--big reveal" href="talking-to-your-ghost.html" data-cat="Talk" data-sound="whisper">
+  <span class="post-card__img"><img src="../assets/shop-ouija.jpg" alt="Hands on a planchette over a Ouija board, night vision" loading="lazy"></span>
+  <span class="post-card__body">
+    <span class="post-card__meta">Talk · 5 min</span>
+    <span class="post-card__title">How to talk to your ghost (politely)</span>
+    <span class="post-card__dek">Ouija, voice recordings, letters. A few house rules make every conversation calmer, for both of you.</span>
+    <span class="link">Read <span aria-hidden="true">→</span></span>
+  </span>
+</a>
+        <div class="post-grid">
+          <a class="post-card reveal" href="the-ghost-diary.html" data-cat="Rituals" data-sound="whisper">
+  <span class="post-card__img"><img src="../assets/print-toilet.png" alt="Found photo: a ghost in a sheet reading comics on the toilet" loading="lazy"></span>
+  <span class="post-card__body">
+    <span class="post-card__meta">Rituals · 4 min</span>
+    <span class="post-card__title">The ghost diary: one minute a day</span>
+    <span class="post-card__dek">Vague dread is hard to live with. A pattern is not. Why we ask you to write one line every evening.</span>
+    <span class="link">Read <span aria-hidden="true">→</span></span>
+  </span>
+</a><a class="post-card reveal" href="when-it-feels-like-someone-you-lost.html" data-cat="Grief" data-sound="whisper">
+  <span class="post-card__img"><img src="../assets/shop-candles.jpg" alt="White candles and flowers on a wooden table in the evening" loading="lazy"></span>
+  <span class="post-card__body">
+    <span class="post-card__meta">Grief · 5 min</span>
+    <span class="post-card__title">When it feels like someone you lost</span>
+    <span class="post-card__dek">Sensing a loved one after they die is common. For most people it is a comfort, and staying connected can be part of healthy grief.</span>
+    <span class="link">Read <span aria-hidden="true">→</span></span>
+  </span>
+</a><a class="post-card reveal" href="check-the-boiler-first.html" data-cat="Safety" data-sound="whisper">
+  <span class="post-card__img"><img src="../assets/blog-yard.jpg" alt="Night photo of three people in a dark yard, a circled shape between them" loading="lazy"></span>
+  <span class="post-card__body">
+    <span class="post-card__meta">Safety · 6 min</span>
+    <span class="post-card__title">Before you call a medium, check the boiler</span>
+    <span class="post-card__dek">Most strange houses are just strange houses. One cause can actually hurt you, and it takes five minutes to rule out.</span>
+    <span class="link">Read <span aria-hidden="true">→</span></span>
+  </span>
+</a><a class="post-card reveal" href="why-your-ghost-visits-at-3am.html" data-cat="Sleep" data-sound="whisper">
+  <span class="post-card__img"><img src="../assets/blog-nightcam.jpg" alt="Night vision camera still of a dark living room with a pale shape in the doorway" loading="lazy"></span>
+  <span class="post-card__body">
+    <span class="post-card__meta">Sleep · 5 min</span>
+    <span class="post-card__title">Why your ghost visits at 3 am</span>
+    <span class="post-card__dek">You wake up, you can&#x27;t move, and something is in the room. Here is what is going on, and what helps.</span>
+    <span class="link">Read <span aria-hidden="true">→</span></span>
+  </span>
+</a><a class="post-card reveal" href="you-are-not-the-only-one.html" data-cat="Living with a ghost" data-sound="whisper">
+  <span class="post-card__img"><img src="../assets/blog-cart.jpg" alt="Found photo: a ghost in a sheet and white heels pushing a shopping cart" loading="lazy"></span>
+  <span class="post-card__body">
+    <span class="post-card__meta">Living with a ghost · 4 min</span>
+    <span class="post-card__title">1 in 6 homes. You are not the only one.</span>
+    <span class="post-card__dek">Most people who live with a ghost never tell anyone. The numbers say they should.</span>
+    <span class="link">Read <span aria-hidden="true">→</span></span>
+  </span>
+</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="cta reveal">
+        <h2 class="display display--cta flicker">Your ghost is waiting.</h2>
+        <p class="sub">Download unghosted. Free to start.</p>
+        <div class="store-buttons store-buttons--center">
+          <a href="../index.html#download" class="btn btn--rust" data-sound="boo">App Store</a>
+          <a href="../index.html#download" class="btn btn--ghost" data-sound="boo">Google Play</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div>
+        <a href="../index.html" class="logo logo--footer" data-sound="boo-short"><svg class="logo__mark" viewBox="0 0 24 30" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 11.5385C0 8.47827 1.21566 5.54342 3.37954 3.37954C5.54342 1.21566 8.47827 0 11.5385 0C14.5987 0 17.5335 1.21566 19.6974 3.37954C21.8613 5.54342 23.0769 8.47827 23.0769 11.5385V25.2404C23.0769 25.8142 22.849 26.3645 22.4433 26.7702C22.0375 27.1759 21.4872 27.4038 20.9135 27.4038C20.3397 27.4038 19.7894 27.1759 19.3837 26.7702C18.9779 26.3645 18.75 25.8142 18.75 25.2404C18.75 25.8142 18.5221 26.3645 18.1163 26.7702C17.7106 27.1759 17.1603 27.4038 16.5865 27.4038C16.0128 27.4038 15.4625 27.1759 15.0567 26.7702C14.651 26.3645 14.4231 25.8142 14.4231 25.2404C14.4231 25.8142 14.1951 26.3645 13.7894 26.7702C13.3837 27.1759 12.8334 27.4038 12.2596 27.4038C11.6858 27.4038 11.1355 27.1759 10.7298 26.7702C10.3241 26.3645 10.0962 25.8142 10.0962 25.2404C10.0962 25.8142 9.86822 26.3645 9.46249 26.7702C9.05676 27.1759 8.50648 27.4038 7.93269 27.4038C7.35891 27.4038 6.80862 27.1759 6.40289 26.7702C5.99717 26.3645 5.76923 25.8142 5.76923 25.2404L2.01923 30L0 25.2404V11.5385ZM7.06731 10.8173C7.06731 11.3146 7.20407 11.7915 7.44751 12.1431C7.69094 12.4948 8.02111 12.6923 8.36538 12.6923C8.70966 12.6923 9.03983 12.4948 9.28326 12.1431C9.5267 11.7915 9.66346 11.3146 9.66346 10.8173C9.66346 10.32 9.5267 9.84311 9.28326 9.49148C9.03983 9.13985 8.70966 8.94231 8.36538 8.94231C8.02111 8.94231 7.69094 9.13985 7.44751 9.49148C7.20407 9.84311 7.06731 10.32 7.06731 10.8173ZM13.4135 10.8173C13.4135 11.3146 13.5502 11.7915 13.7937 12.1431C14.0371 12.4948 14.3673 12.6923 14.7115 12.6923C15.0558 12.6923 15.386 12.4948 15.6294 12.1431C15.8729 11.7915 16.0096 11.3146 16.0096 10.8173C16.0096 10.32 15.8729 9.84311 15.6294 9.49148C15.386 9.13985 15.0558 8.94231 14.7115 8.94231C14.3673 8.94231 14.0371 9.13985 13.7937 9.49148C13.5502 9.84311 13.4135 10.32 13.4135 10.8173Z"/></svg><span class="logo__word"><span class="logo__un">un</span>ghosted</span></a>
+        <p class="footer__tag">Don't ghost your ghost. Made in Brussels.</p>
+      </div>
+      <div class="footer__cols">
+        <div><h4>Product</h4><a href="../index.html#features">Features</a><a href="../index.html#shop">Spirit shop</a><a href="../index.html#faq">FAQ</a></div>
+        <div><h4>Company</h4><a href="../blog/index.html">Blog</a><a href="#">About</a><a href="#">Contact</a></div>
+        <div><h4>Follow</h4><a href="#">Instagram</a><a href="#">TikTok</a><a href="#">LinkedIn</a></div>
+      </div>
+    </div>
+  </footer>
+  <div class="toast" role="status" aria-live="polite">Click anywhere to wake the house. <span>Sound on</span></div>
+  <script src="../main.js"></script>
+</body>
+</html>

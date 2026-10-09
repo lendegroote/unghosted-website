@@ -292,6 +292,27 @@
     d.addEventListener('toggle', () => { if (d.open && woke) creak({ dur: 0.6, vol: 0.16 }); });
   });
 
+
+  /* ---------- 6. Blog: reading progress + category filter ---------- */
+  const bar = document.querySelector('.progress');
+  if (bar) {
+    const upd = () => {
+      const h = document.documentElement.scrollHeight - innerHeight;
+      bar.style.transform = `scaleX(${h > 0 ? Math.min(1, scrollY / h) : 0})`;
+    };
+    addEventListener('scroll', upd, { passive: true }); upd();
+  }
+  const chips = document.querySelectorAll('.chip[data-filter]');
+  chips.forEach((c) => c.addEventListener('click', () => {
+    chips.forEach((x) => x.classList.toggle('is-on', x === c));
+    const f = c.dataset.filter;
+    document.querySelectorAll('.post-card[data-cat]').forEach((card) => {
+      card.classList.toggle('is-hidden', f !== 'All' && card.dataset.cat !== f);
+      card.classList.add('is-in');
+    });
+    if (woke) whisper({ dur: 0.5, vol: 0.05 });
+  }));
+
   // Every now and then, if you sit still, the house answers (sound on only)
   let idleTimer;
   function armIdle() {
