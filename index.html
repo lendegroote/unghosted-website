@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>unghosted · Don't ghost your ghost.</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <meta name="description" content="The care app for people who live with a ghost. We believe you, and we are here to help you get along.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Experience layers -->
+  <div class="veil" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- 01 Nav -->
+  <header class="nav">
+    <div class="wrap nav__inner">
+      <a href="#top" class="logo" data-sound="boo-short">
+        <svg class="logo__mark" viewBox="0 0 24 30" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 11.5385C0 8.47827 1.21566 5.54342 3.37954 3.37954C5.54342 1.21566 8.47827 0 11.5385 0C14.5987 0 17.5335 1.21566 19.6974 3.37954C21.8613 5.54342 23.0769 8.47827 23.0769 11.5385V25.2404C23.0769 25.8142 22.849 26.3645 22.4433 26.7702C22.0375 27.1759 21.4872 27.4038 20.9135 27.4038C20.3397 27.4038 19.7894 27.1759 19.3837 26.7702C18.9779 26.3645 18.75 25.8142 18.75 25.2404C18.75 25.8142 18.5221 26.3645 18.1163 26.7702C17.7106 27.1759 17.1603 27.4038 16.5865 27.4038C16.0128 27.4038 15.4625 27.1759 15.0567 26.7702C14.651 26.3645 14.4231 25.8142 14.4231 25.2404C14.4231 25.8142 14.1951 26.3645 13.7894 26.7702C13.3837 27.1759 12.8334 27.4038 12.2596 27.4038C11.6858 27.4038 11.1355 27.1759 10.7298 26.7702C10.3241 26.3645 10.0962 25.8142 10.0962 25.2404C10.0962 25.8142 9.86822 26.3645 9.46249 26.7702C9.05676 27.1759 8.50648 27.4038 7.93269 27.4038C7.35891 27.4038 6.80862 27.1759 6.40289 26.7702C5.99717 26.3645 5.76923 25.8142 5.76923 25.2404L2.01923 30L0 25.2404V11.5385ZM7.06731 10.8173C7.06731 11.3146 7.20407 11.7915 7.44751 12.1431C7.69094 12.4948 8.02111 12.6923 8.36538 12.6923C8.70966 12.6923 9.03983 12.4948 9.28326 12.1431C9.5267 11.7915 9.66346 11.3146 9.66346 10.8173C9.66346 10.32 9.5267 9.84311 9.28326 9.49148C9.03983 9.13985 8.70966 8.94231 8.36538 8.94231C8.02111 8.94231 7.69094 9.13985 7.44751 9.49148C7.20407 9.84311 7.06731 10.32 7.06731 10.8173ZM13.4135 10.8173C13.4135 11.3146 13.5502 11.7915 13.7937 12.1431C14.0371 12.4948 14.3673 12.6923 14.7115 12.6923C15.0558 12.6923 15.386 12.4948 15.6294 12.1431C15.8729 11.7915 16.0096 11.3146 16.0096 10.8173C16.0096 10.32 15.8729 9.84311 15.6294 9.49148C15.386 9.13985 15.0558 8.94231 14.7115 8.94231C14.3673 8.94231 14.0371 9.13985 13.7937 9.49148C13.5502 9.84311 13.4135 10.32 13.4135 10.8173Z"/></svg>
+        <span class="logo__word"><span class="logo__un">un</span>ghosted</span>
+      </a>
+      <nav class="nav__links" aria-label="Main">
+        <a href="#features">Features</a>
+        <a href="#shop">Spirit shop</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <div class="nav__actions">
+        <button class="sound-toggle" type="button" aria-pressed="true" aria-label="Sound on">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5Z"/><path class="wave" d="M15.5 8.5a5 5 0 0 1 0 7"/><path class="wave" d="M18.5 5.5a9 9 0 0 1 0 13"/><path class="mute" d="m16 9 6 6m0-6-6 6"/></svg>
+          <span class="sound-toggle__label">Sound on</span>
+        </button>
+        <a href="#download" class="btn btn--rust" data-sound="boo">Download</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- 02 Hero -->
+    <section class="hero">
+      <div class="wrap hero__inner">
+        <div class="hero__text">
+          <h1 class="display flicker reveal">Don't ghost<br>your ghost.</h1>
+          <p class="lead reveal" style="--d:.1s">The care app for people who live with a ghost. We believe you, and we are here to help you get along.</p>
+          <div class="store-buttons reveal" style="--d:.2s">
+            <a href="#download" class="btn btn--rust" data-sound="boo">App Store</a>
+            <a href="#download" class="btn btn--ghost" data-sound="boo">Google Play</a>
+          </div>
+          <p class="proof reveal" style="--d:.3s"><span class="pulse-dot" aria-hidden="true"></span>1 in 6 Americans say their home is haunted. You are not alone.</p>
+        </div>
+        <div class="hero__visual" data-parallax>
+          <img class="print print--back float" src="assets/print-cart.png" alt="Found photo: a ghost in a sheet pushing a shopping cart" data-depth="0.6" data-sound="whisper">
+          <img class="print print--front float float--2" src="assets/print-toilet.png" alt="Found photo: a ghost in a sheet reading comics on the toilet" data-depth="1.2" data-sound="whisper">
+          <div class="phone float float--3" data-depth="2">
+            <img src="assets/hero-today.png" alt="Ghostly app, Today screen: Your ghost is restless tonight">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03 Problem -->
+    <section class="section section--alt" id="problem">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <p class="eyebrow">The problem</p>
+          <h2 class="h2">You don't want it gone.<br>You want to get along.</h2>
+          <p class="sub">Living with a ghost can feel lonely and confusing. Here is what we hear most.</p>
+        </header>
+        <div class="cards cards--4">
+          <article class="card reveal" style="--d:.0s">
+            <span class="card__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/><path d="m9 9 6 6m0-6-6 6"/></svg></span>
+            <h3 class="card__title">Nobody believes you.</h3>
+            <p class="card__text">Friends laugh, family worries. So you stopped talking about it.</p>
+          </article>
+          <article class="card reveal" style="--d:.08s">
+            <span class="card__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg></span>
+            <h3 class="card__title">You don't know who it is.</h3>
+            <p class="card__text">A name? An era? Why your attic, of all places?</p>
+          </article>
+          <article class="card reveal" style="--d:.16s">
+            <span class="card__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg></span>
+            <h3 class="card__title">You don't know what it needs.</h3>
+            <p class="card__text">A door slams at 3 am. Is it upset, or just lonely?</p>
+          </article>
+          <article class="card reveal" style="--d:.24s">
+            <span class="card__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg></span>
+            <h3 class="card__title">You feel on your own.</h3>
+            <p class="card__text">Online, it is all exorcisms and horror films. Not much help for living together.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 Features -->
+    <section class="section" id="features">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <p class="eyebrow">How it works</p>
+          <h2 class="h2">One minute a day.<br>Like feeding the cat.</h2>
+          <p class="sub">A gentle daily routine that helps you and your ghost feel better at home.</p>
+        </header>
+
+        <ol class="steps">
+          <li class="step reveal" style="--d:0s"><span class="step__n">1</span><strong>Check in</strong><span>See how your ghost feels today.</span></li>
+          <li class="step reveal" style="--d:.08s"><span class="step__n">2</span><strong>Do a ritual</strong><span>A candle, a song, ten minutes together.</span></li>
+          <li class="step reveal" style="--d:.16s"><span class="step__n">3</span><strong>Mood goes up</strong><span>Trust grows over time.</span></li>
+          <li class="step reveal" style="--d:.24s"><span class="step__n">4</span><strong>Meet others</strong><span>People who understand, near you.</span></li>
+        </ol>
+
+        <div class="feature" id="today">
+          <div class="feature__text reveal">
+            <p class="eyebrow">Today</p>
+            <h3 class="h3">Know how your ghost feels.</h3>
+            <p class="sub">A daily mood check and simple rituals: light a candle, say good night, leave a glass of water.</p>
+            <a class="link" href="#download" data-sound="creak">Learn more <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="feature__visual reveal tilt" style="--d:.1s"><img src="assets/feature-today.png" alt="Today screen: your ghost is restless tonight, calm 32%"></div>
+        </div>
+
+        <div class="feature feature--flip" id="profile">
+          <div class="feature__text reveal">
+            <p class="eyebrow">Ghost profile</p>
+            <h3 class="h3">Get to know who lives with you.</h3>
+            <p class="sub">Name, era, favourite room, music taste. The profile fills in as you spend time together.</p>
+            <a class="link" href="#download" data-sound="creak">Learn more <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="feature__visual reveal tilt" style="--d:.1s"><img src="assets/feature-profile.png" alt="Ghost profile screen: not named yet, poltergeist, clues 3 of 9"></div>
+        </div>
+
+        <div class="feature" id="map">
+          <div class="feature__text reveal">
+            <p class="eyebrow">Haunt map</p>
+            <h3 class="h3">Meet people who understand.</h3>
+            <p class="sub">Haunted homes near you, and lonely ghosts looking for a home. On the map or in AR.</p>
+            <a class="link" href="#download" data-sound="creak">Learn more <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="feature__visual reveal tilt" style="--d:.1s"><img src="assets/feature-map.png" alt="Haunt map screen with haunted homes and lonely ghosts nearby"></div>
+        </div>
+
+        <div class="feature feature--flip" id="chat">
+          <div class="feature__text reveal">
+            <p class="eyebrow">Chat</p>
+            <h3 class="h3">Talk to your ghost. Or to an expert.</h3>
+            <p class="sub">Open a calm session with your ghost, or ask a medium when you need advice.</p>
+            <a class="link" href="#download" data-sound="creak">Learn more <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="feature__visual reveal tilt" style="--d:.1s"><img src="assets/feature-chat.png" alt="Talk screen: ghost expert Mara, medium, online now"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 Spirit shop -->
+    <section class="section section--alt" id="shop">
+      <div class="wrap">
+        <header class="section__head section__head--center reveal">
+          <p class="eyebrow">Spirit shop</p>
+          <h2 class="h2">Everything you need to connect.</h2>
+          <p class="sub">Candles, crystals and tools, chosen with care.</p>
+        </header>
+        <div class="cards cards--4">
+          <a class="product reveal" href="#download" style="--d:0s" data-sound="whisper">
+            <span class="product__img"><img src="assets/shop-ouija.jpg" alt="Ouija board in night vision"></span>
+            <span class="product__name">Ouija board</span><span class="product__price">€39</span>
+          </a>
+          <a class="product reveal" href="#download" style="--d:.08s" data-sound="whisper">
+            <span class="product__img"><img src="assets/shop-candles.jpg" alt="White candles on a wooden table"></span>
+            <span class="product__name">White candle set</span><span class="product__price">€18</span>
+          </a>
+          <a class="product reveal" href="#download" style="--d:.16s" data-sound="whisper">
+            <span class="product__img"><img src="assets/shop-evp.jpg" alt="Digital voice recorder for EVP"></span>
+            <span class="product__name">Expert EVP analysis</span><span class="product__price">€14</span>
+          </a>
+          <a class="product reveal" href="#download" style="--d:.24s" data-sound="whisper">
+            <span class="product__img"><img src="assets/shop-selenite.jpg" alt="Selenite crystal"></span>
+            <span class="product__name">Selenite crystal</span><span class="product__price">€16</span>
+          </a>
+        </div>
+        <div class="center reveal"><a class="btn btn--ghost" href="#download" data-sound="boo">Visit the Spirit shop</a></div>
+      </div>
+    </section>
+
+    <!-- 06 Testimonials -->
+    <section class="section" id="stories">
+      <div class="wrap">
+        <header class="section__head section__head--center reveal">
+          <p class="eyebrow">Stories</p>
+          <h2 class="h2">From people who live with a ghost.</h2>
+        </header>
+        <div class="cards cards--3">
+          <figure class="quote reveal" style="--d:0s">
+            <blockquote>“For years I thought I was losing it. Now I light a candle every evening and the attic door stays quiet. Edith and I finally get along.”</blockquote>
+            <figcaption><img src="assets/avatar-sarah.png" alt=""><span><strong>Sarah &amp; Edith</strong>Boston · living together since 2021</span></figcaption>
+          </figure>
+          <figure class="quote reveal" style="--d:.08s">
+            <blockquote>“The profile helped me find out who he was: the carpenter who built the house in 1934. I am not scared anymore. I say good night to Henri every evening.”</blockquote>
+            <figcaption><img src="assets/avatar-julien.png" alt=""><span><strong>Julien &amp; Henri</strong>Lyon · living together since 2024</span></figcaption>
+          </figure>
+          <figure class="quote reveal" style="--d:.16s">
+            <blockquote>“My friends laughed. On the haunt map I found three neighbours with the same knocks at 3 am. We have a group chat now.”</blockquote>
+            <figcaption><img src="assets/avatar-amira.png" alt=""><span><strong>Amira &amp; the knocker</strong>Brussels · living together since 2025</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- 07 FAQ -->
+    <section class="section section--alt" id="faq">
+      <div class="wrap wrap--narrow">
+        <header class="section__head section__head--center reveal">
+          <p class="eyebrow">FAQ</p>
+          <h2 class="h2">Questions you might have.</h2>
+        </header>
+        <div class="faq">
+          <details class="faq__item reveal" open>
+            <summary>Do I need proof?<span class="faq__sign" aria-hidden="true"></span></summary>
+            <div class="faq__body"><p>No. We believe you.</p></div>
+          </details>
+          <details class="faq__item reveal">
+            <summary>What if I don't have a ghost yet?<span class="faq__sign" aria-hidden="true"></span></summary>
+            <div class="faq__body"><p>Open the haunt map. Lonely ghosts nearby are looking for a calm home. Adopt one, or foster for a week first.</p></div>
+          </details>
+          <details class="faq__item reveal">
+            <summary>Is my ghost dangerous?<span class="faq__sign" aria-hidden="true"></span></summary>
+            <div class="faq__body"><p>Most are just lonely. If something feels off, like headaches or weeks of bad sleep, the app checks the house first and points you to real help.</p></div>
+          </details>
+          <details class="faq__item reveal">
+            <summary>What if I move house?<span class="faq__sign" aria-hidden="true"></span></summary>
+            <div class="faq__body"><p>Some ghosts come with you, some stay with the house. Your profile, diary and rituals move with you either way.</p></div>
+          </details>
+          <details class="faq__item reveal">
+            <summary>Is it free?<span class="faq__sign" aria-hidden="true"></span></summary>
+            <div class="faq__body"><p>Free to start. Ghostly+ is €4.99 a month for chat, Ghost Finder and all rituals.</p></div>
+          </details>
+          <details class="faq__item reveal">
+            <summary>Is my data private?<span class="faq__sign" aria-hidden="true"></span></summary>
+            <div class="faq__body"><p>Yes. Your diary stays yours, and homes on the haunt map are anonymised.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- 08 Final CTA -->
+    <section class="section" id="download">
+      <div class="wrap">
+        <div class="cta reveal">
+          <h2 class="display display--cta flicker">Your ghost is waiting.</h2>
+          <p class="sub">Download unghosted. Free to start.</p>
+          <div class="store-buttons store-buttons--center">
+            <a href="#download" class="btn btn--rust" data-sound="boo">App Store</a>
+            <a href="#download" class="btn btn--ghost" data-sound="boo">Google Play</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 09 Footer -->
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div>
+        <a href="#top" class="logo logo--footer" data-sound="boo-short"><svg class="logo__mark" viewBox="0 0 24 30" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 11.5385C0 8.47827 1.21566 5.54342 3.37954 3.37954C5.54342 1.21566 8.47827 0 11.5385 0C14.5987 0 17.5335 1.21566 19.6974 3.37954C21.8613 5.54342 23.0769 8.47827 23.0769 11.5385V25.2404C23.0769 25.8142 22.849 26.3645 22.4433 26.7702C22.0375 27.1759 21.4872 27.4038 20.9135 27.4038C20.3397 27.4038 19.7894 27.1759 19.3837 26.7702C18.9779 26.3645 18.75 25.8142 18.75 25.2404C18.75 25.8142 18.5221 26.3645 18.1163 26.7702C17.7106 27.1759 17.1603 27.4038 16.5865 27.4038C16.0128 27.4038 15.4625 27.1759 15.0567 26.7702C14.651 26.3645 14.4231 25.8142 14.4231 25.2404C14.4231 25.8142 14.1951 26.3645 13.7894 26.7702C13.3837 27.1759 12.8334 27.4038 12.2596 27.4038C11.6858 27.4038 11.1355 27.1759 10.7298 26.7702C10.3241 26.3645 10.0962 25.8142 10.0962 25.2404C10.0962 25.8142 9.86822 26.3645 9.46249 26.7702C9.05676 27.1759 8.50648 27.4038 7.93269 27.4038C7.35891 27.4038 6.80862 27.1759 6.40289 26.7702C5.99717 26.3645 5.76923 25.8142 5.76923 25.2404L2.01923 30L0 25.2404V11.5385ZM7.06731 10.8173C7.06731 11.3146 7.20407 11.7915 7.44751 12.1431C7.69094 12.4948 8.02111 12.6923 8.36538 12.6923C8.70966 12.6923 9.03983 12.4948 9.28326 12.1431C9.5267 11.7915 9.66346 11.3146 9.66346 10.8173C9.66346 10.32 9.5267 9.84311 9.28326 9.49148C9.03983 9.13985 8.70966 8.94231 8.36538 8.94231C8.02111 8.94231 7.69094 9.13985 7.44751 9.49148C7.20407 9.84311 7.06731 10.32 7.06731 10.8173ZM13.4135 10.8173C13.4135 11.3146 13.5502 11.7915 13.7937 12.1431C14.0371 12.4948 14.3673 12.6923 14.7115 12.6923C15.0558 12.6923 15.386 12.4948 15.6294 12.1431C15.8729 11.7915 16.0096 11.3146 16.0096 10.8173C16.0096 10.32 15.8729 9.84311 15.6294 9.49148C15.386 9.13985 15.0558 8.94231 14.7115 8.94231C14.3673 8.94231 14.0371 9.13985 13.7937 9.49148C13.5502 9.84311 13.4135 10.32 13.4135 10.8173Z"/></svg><span class="logo__word"><span class="logo__un">un</span>ghosted</span></a>
+        <p class="footer__tag">Don't ghost your ghost. Made in Brussels.</p>
+      </div>
+      <div class="footer__cols">
+        <div><h4>Product</h4><a href="#features">Features</a><a href="#shop">Spirit shop</a><a href="#faq">FAQ</a></div>
+        <div><h4>Company</h4><a href="#">About</a><a href="#">Contact</a><a href="#">Press</a></div>
+        <div><h4>Follow</h4><a href="#">Instagram</a><a href="#">TikTok</a><a href="#">LinkedIn</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Tiny toast, shown once, to say sound exists -->
+  <div class="toast" role="status" aria-live="polite">Click anywhere to wake the house. <span>Sound on</span></div>
+
+  <script src="main.js"></script>
+</body>
+</html>
